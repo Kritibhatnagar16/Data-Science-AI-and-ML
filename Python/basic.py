@@ -1,189 +1,189 @@
 
-# print("hiiii")
-# a = "hello"
-# num = 20
-# # - ctrl + ? (to comment all)
-# Age = 23
-# age = 23
-# print(age)
-# print(Age)
+print("hiiii")
+a = "hello"
+num = 20
+# - ctrl + ? (to comment all)
+Age = 23
+age = 23
+print(age)
+print(Age)
 
-# name = "kriti"
-# print(name)
+name = "kriti"
+print(name)
 
-# print(type(name))
-# print("my name is",name)
+print(type(name))
+print("my name is",name)
 
-# print(" name datatypes",type(name))
-# print(" len of name :",len(name))
+print(" name datatypes",type(name))
+print(" len of name :",len(name))
 
-# ###indexing
-# print(name[0])
-# print(name[4])
-
-
-# ### Slicing in python ###########
-# name = "kriti"
-# print(name[0:4])
+###indexing
+print(name[0])
+print(name[4])
 
 
-# #### operation
-# name = "kriti"
+### Slicing in python ###########
+name = "kriti"
+print(name[0:4])
 
 
-# print(name.count("r"))
-
-# name = "kriti"
-
-# name= "kriti"
-# reversed_name = name[::-1]
-# print("Reversed name is:", reversed_name)
+#### operation
+name = "kriti"
 
 
-# number = "5656460000"
-# reversed_number = number[::-1]
-# print("Reversed no is:", reversed_number)
+print(name.count("r"))
 
-# name = "kRIti"
-# upper_case=name.upper()
-# print(upper_case)
+name = "kriti"
 
-# lower_case = name.lower()
-# print(lower_case)
+name= "kriti"
+reversed_name = name[::-1]
+print("Reversed name is:", reversed_name)
 
 
-## >>>>>>>>>>>>>>>list>>>>>>>>>>>
+number = "5656460000"
+reversed_number = number[::-1]
+print("Reversed no is:", reversed_number)
 
-# list = [1,2,3,4,5,6,"rohit",2.3]
-##list
-#mutable
-#duplicated values
-#order
-#array ----
-#homogeneous 
-# print(list)
-# print("my first list:",list)
-# print("len of list:",len(list))
-# print("type of list",type(list))
+name = "kRIti"
+upper_case=name.upper()
+print(upper_case)
 
-# print(list[0])
-# print(list[6])
+lower_case = name.lower()
+print(lower_case)
 
 
-# print(list[0:5])
+# >>>>>>>>>>>>>>>list>>>>>>>>>>>
 
-# list = [1,2,3,4,5,6,2.3]
-# list.pop()
-# print(list)
+list = [1,2,3,4,5,6,"rohit",2.3]
+#list
+mutable
+duplicated values
+order
+array ----
+homogeneous 
+print(list)
+print("my first list:",list)
+print("len of list:",len(list))
+print("type of list",type(list))
 
-# list.append(100)  ##add in last
-# print(list)
-
-# list.insert(0,1000)
-# print(list)
-
-# copy_list = list.copy()
-# print(copy_list)
-# list.reverse()
-# list.remove(3)
-# print(list)
-# list.sort()
-# print(list)
-
-# print(list.count(2))
-# print(list)
-
-# list.clear()
-# print(list)
+print(list[0])
+print(list[6])
 
 
-##>>>>>>>>>>>>>>tuple>>>>>>>>>>>>>>
-# tpl =(1,2,3,4,345, "kriti",2.3)
-# print("my first tuple:",tpl)
-# print("len of tuple:",len(tpl))
+print(list[0:5])
+
+list = [1,2,3,4,5,6,2.3]
+list.pop()
+print(list)
+
+list.append(100)  ##add in last
+print(list)
+
+list.insert(0,1000)
+print(list)
+
+copy_list = list.copy()
+print(copy_list)
+list.reverse()
+list.remove(3)
+print(list)
+list.sort()
+print(list)
+
+print(list.count(2))
+print(list)
+
+list.clear()
+print(list)
 
 
-# print(tpl[0])
-# print(tpl[0:6])
+#>>>>>>>>>>>>>>tuple>>>>>>>>>>>>>>
+tpl =(1,2,3,4,345, "kriti",2.3)
+print("my first tuple:",tpl)
+print("len of tuple:",len(tpl))
 
 
-# a=1,2,3,4,5,6,
-# print(a)
-# print(type(a))
-# print(len(a))
-
-# ###tuple unpacking
-# a,b,c,d = (1,2,3,4)
-# print(a)
-# print(b)
-# print(c)
-# print(d)
+print(tpl[0])
+print(tpl[0:6])
 
 
-# tuple = (1,56,78,388)
-# print("max or tpl",max(tuple))
-# min(tuple)
-# sum(tuple)
+a=1,2,3,4,5,6,
+print(a)
+print(type(a))
+print(len(a))
+
+###tuple unpacking
+a,b,c,d = (1,2,3,4)
+print(a)
+print(b)
+print(c)
+print(d)
 
 
-# #######Dictionary
-
-# my_dict = {
-#     "name": "rohit",
-#     "class": "2nd year",  ### name,class-keys
-#     "Address": "jpr"      #### rohiy-value   total is item
-# }
-
-# print("my first dict:",my_dict)
-# print("length of dict", len(my_dict))
-
-# print(my_dict['name'])
-# print(my_dict['class'])
-# print(my_dict['Address'])
-# my_dict['Address']= "bharatpur"
-# print(my_dict['Address'])
-
-# my_dict['branch']= "ai"
-# print(my_dict)
-
-######################################
-# list = [ 1,2,3,4,[2,5],7 ]  ## 5 accesss
-# print(list[4][1])
-######################################
-
-# a = [1,2,3,4]
-# a.reverse()
-# print(a)
-
-##################OPERATORS##########
-
-# x =  int(input("Enter x: "))
-# x += 10
-# print("after adding value",x)
+tuple = (1,56,78,388)
+print("max or tpl",max(tuple))
+min(tuple)
+sum(tuple)
 
 
-# list = [ 1,2,3,4,7 ]
-# print(list[::-1])    ####slicing
+#######Dictionary
 
-# a = [1,2,3,[4,5,6]]
-# a.pop()
-# print(a)
-################################################
+my_dict = {
+    "name": "rohit",
+    "class": "2nd year",  ### name,class-keys
+    "Address": "jpr"      #### rohiy-value   total is item
+}
 
-# # task = use update function to update dict
-# # get function >>>> 5 example or []  acces using this bracket
+print("my first dict:",my_dict)
+print("length of dict", len(my_dict))
 
-# ###############################################
+print(my_dict['name'])
+print(my_dict['class'])
+print(my_dict['Address'])
+my_dict['Address']= "bharatpur"
+print(my_dict['Address'])
 
-# my_dict = {
-#    "name": "rohit",
-#     "class": "2nd year",  ### name,class-keys
-#     "Address": "jpr"      #### rohiy-value   total is item
-#  }
+my_dict['branch']= "ai"
+print(my_dict)
 
-# print(my_dict.keys())
-# print(my_dict.values())
-# print(my_dict.items())
+#####################################
+list = [ 1,2,3,4,[2,5],7 ]  ## 5 accesss
+print(list[4][1])
+#####################################
+
+a = [1,2,3,4]
+a.reverse()
+print(a)
+
+#################OPERATORS##########
+
+x =  int(input("Enter x: "))
+x += 10
+print("after adding value",x)
+
+
+list = [ 1,2,3,4,7 ]
+print(list[::-1])    ####slicing
+
+a = [1,2,3,[4,5,6]]
+a.pop()
+print(a)
+###############################################
+
+# task = use update function to update dict
+# get function >>>> 5 example or []  acces using this bracket
+
+###############################################
+
+my_dict = {
+   "name": "rohit",
+    "class": "2nd year",  ### name,class-keys
+    "Address": "jpr"      #### rohiy-value   total is item
+ }
+
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
 
 # copy_dict=my_dict.copy()
 # print(copy_dict)
@@ -265,6 +265,12 @@ print("Intersection:", b.intersection(a))
 print(" a - b:", a.difference(b))  
 print("b - a:", b.difference(a))  
 
+
+a = int(input())
+b = int(input())
+print(a+b)
+print(a-b)
+print(a*b)
 
 
 
